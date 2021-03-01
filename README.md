@@ -1,7 +1,7 @@
 ### Advanced functions: Validation task
 ***
 
-#### Descriptions
+#### Description
 
 Create decorator `validate` which validates arguments in `set_pixel` function. 
 All function parameters should be between 0(int) and 256(int) inclusive.
