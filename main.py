@@ -13,7 +13,7 @@ def validate(low_bound: int, upper_bound: int):
             for pixel in args:
                 if pixel not in range(low_bound, upper_bound + 1):
                     return "Function call is not valid!"
-            return func(*args)
+            return func(*args, **kwargs)
         return wrapper
     return decorator
 
